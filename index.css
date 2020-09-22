@@ -1,0 +1,50 @@
+body{
+    background: white;
+    margin: 0;
+    
+}
+.header{
+    text-align: center;
+    background: white;
+    padding: 10px 16px;
+}
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%
+}
+.sticky + .main-content {
+  padding-top: 102px;
+}
+.landing-view{
+    text-align: center;
+    background: #ff0d40;
+    height: 500px;
+    
+}
+.alisha{
+    color: white;
+}
+.welcome{
+    display: inline;
+    white-space: nowrap;
+    padding: 50%;
+
+}
+.intro{
+    margin-top: 20%;
+}
+.logo{
+    width: 200px;
+    
+}
+.main-content{
+    font-size: 30px;
+    background: black;
+    color: white;
+}
+@media (max-width: 600px) {
+    .intro{
+        margin-top: 35%;
+    }
+}
