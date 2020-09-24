@@ -163,6 +163,11 @@ th{
     .intro {
 	margin-top: 10%;
 }
+.me{
+    height: 400px;
+    width: 310px;
+    margin-left: 50px;
+}
 }
 @media (max-width: 800px) {
 	.intro {
