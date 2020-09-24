@@ -178,7 +178,8 @@ th{
 		margin: 0 7px 20px 7px;
         width: 100%;
         font-size: 20px;
-	}
+    }
+    
 	.me {
 		height: 100%;
 		padding: 0 10px;
@@ -213,6 +214,10 @@ th{
 }
 @media(max-width: 600px){
     th{
-        font-size: 15px;
+        font-size: 12px;
+    }
+    td{
+        font-size: 12px;
+        padding: 5px;
     }
 }
