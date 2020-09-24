@@ -48,13 +48,15 @@ body {
 }
 .about-me {
 	margin: 25px 20px 0 20px;
-	width: 50%;
+    width: 50%;
+    min-width: 10em;
 }
 .me {
 	height: 90%;
 	margin-right: 50px;
 	border-radius: 30%;
-	width: 50%;
+    width: 50%;
+    margin-top: 50px;
 }
 .key {
 	color: #ff0d40;
@@ -102,6 +104,23 @@ body {
     color: white;
     cursor: pointer;
 }
+table {
+  border-collapse: collapse;
+  margin: 0 auto;
+  white-space: nowrap;
+}
+th{
+    font-size: 30px;
+     text-align: left;
+     padding: 20px;
+}
+.skills-header{
+    text-align: center;
+}
+.contact-me{
+    margin-left: 20px;
+}
+
 @media (max-width: 800px) {
 	.intro {
 		margin-top: 35%;
@@ -142,5 +161,11 @@ body {
 	.bottom-contents {
 		width: 95%;
 		margin: 0 auto;
-	}
+    }
+    
+}
+@media(max-width: 600px){
+    th{
+        font-size: 15px;
+    }
 }
