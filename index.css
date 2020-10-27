@@ -90,6 +90,7 @@ body {
     width: 50%;
     border-radius: 15px;
     background-color: #ff0d40;
+    outline: 0;
 }
 .app-info{
     width: 50%;
