@@ -1,7 +1,7 @@
 body {
 	background: white;
 	margin: 0;
-    background: black;
+    background: #ff0d40;
 }
 .header {
 	text-align: center;
@@ -24,8 +24,9 @@ body {
 }
 .landing-view {
 	text-align: left;
-	background: #ff0d40;
+	background: black;
     height: 500px;
+    color: #ff0d40;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .alisha {
@@ -40,6 +41,7 @@ body {
     margin-top: 20%;
     padding-left: 35%;
     font-size: 40px;
+    
 }
 .sub{
     padding-left: 35%;
@@ -58,16 +60,18 @@ body {
     width: 50%;
     min-width: 10em;
     font-size: 20px;
+    text-align: left;
 }
 .me {
 	height: 90%;
 	margin-right: 50px;
-	border-radius: 15%;
+	border-radius: 15px;
     width: 50%;
     margin-top: 50px;
 }
 .key {
-	color: #ff0d40;
+    color:black;
+    text-align: left;
 }
 .projects {
 	color: white;
@@ -84,6 +88,8 @@ body {
 }
 .app-image {
     width: 50%;
+    border-radius: 15px;
+    background-color: #ff0d40;
 }
 .app-info{
     width: 50%;
@@ -186,6 +192,7 @@ th{
 		margin: 0 7px 20px 7px;
         width: 100%;
         font-size: 20px;
+        text-align: center;
     }
     
 	.me {
