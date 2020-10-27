@@ -89,7 +89,7 @@ body {
 .app-image {
     width: 50%;
     border-radius: 15px;
-    background-color: #ff0d40;
+    background:radial-gradient(#ff0d40, #801818);
     outline: 0;
 }
 .app-info{
