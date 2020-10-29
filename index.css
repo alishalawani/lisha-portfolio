@@ -51,7 +51,6 @@ body {
 	display: flex;
 	flex-direction: row;
 	padding-top: 50px;
-	font-size: 30px;
 	color: white;
 	width: 100%;
 }
@@ -59,7 +58,7 @@ body {
 	margin: 25px 20px 0 20px;
     width: 50%;
     min-width: 10em;
-    font-size: 20px;
+    font-size: 18px;
     text-align: left;
 }
 .me {
@@ -69,13 +68,19 @@ body {
     width: 50%;
     margin-top: 50px;
 }
+
 .key {
     color:black;
     text-align: left;
 }
 .projects {
 	color: white;
-	margin: 0 15px;
+	margin: 50px 15px 0 15px;
+}
+.hr{
+   color: white;
+   border: 0.5px thin white;
+
 }
 .app {
     display: flex;
@@ -142,7 +147,8 @@ th{
      padding: 20px;
 }
 .skills-header{
-    text-align: center;
+    text-align: left;
+    margin-top: 60px;
 }
 .contact-me{
     margin-left: 20px;
@@ -192,7 +198,7 @@ th{
 	.about-me {
 		margin: 0 7px 20px 7px;
         width: 100%;
-        font-size: 20px;
+        font-size: 18px;
         text-align: center;
     }
     
