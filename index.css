@@ -1,7 +1,7 @@
 body {
 	background: white;
 	margin: 0;
-    background: #ff0d40;
+	background: #ff0d40;
 }
 .header {
 	text-align: center;
@@ -25,9 +25,18 @@ body {
 .landing-view {
 	text-align: left;
 	background: black;
-    height: 500px;
-    color: #ff0d40;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+	height: 500px;
+	color: #ff0d40;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+@keyframes type {
+	0% {
+		width: 0ch;
+	}
+	100% {
+		width: 34ch;
+	}
 }
 .alisha {
 	color: white;
@@ -38,14 +47,15 @@ body {
 	padding: 50%;
 }
 .intro {
-    margin-top: 20%;
-    padding-left: 35%;
+	margin-top: 20%;
+	padding-left: 35%;
     font-size: 40px;
-    
 }
-.sub{
-    padding-left: 35%;
+.sub {
+	padding-left: 35%;
     font-size: 20px;
+    animation: type 2s steps(34);
+    overflow: hidden;
 }
 .about {
 	display: flex;
@@ -56,152 +66,151 @@ body {
 }
 .about-me {
 	margin: 25px 20px 0 20px;
-    width: 50%;
-    min-width: 10em;
-    font-size: 18px;
-    text-align: left;
+	width: 50%;
+	min-width: 10em;
+	font-size: 18px;
+	text-align: left;
 }
 .me {
 	height: 90%;
 	margin-right: 50px;
 	border-radius: 15px;
-    width: 50%;
-    margin-top: 50px;
+	width: 50%;
+	margin-top: 50px;
 }
 
 .key {
-    color:white;
-    text-align: left;
+	color: white;
+	text-align: left;
 }
 .projects {
 	color: white;
 	margin: 50px 15px 0 15px;
 }
-.hr{
-   color: white;
-   border: 0.5px thin white;
-
+.hr {
+	color: white;
+	border: 0.5px thin white;
 }
 .app {
-    display: flex;
-    flex-direction: row;
-    margin: 50px 0;
-    width: 100%;
-    max-height: 500px;
-    padding: 5px;
-    height: auto;
+	display: flex;
+	flex-direction: row;
+	margin: 50px 0;
+	width: 100%;
+	max-height: 500px;
+	padding: 5px;
+	height: auto;
 }
 .app-image {
-    width: 50%;
-    border-radius: 15px;
-    background:radial-gradient(#ff0d40, #801818);
-    outline: 0;
+	width: 50%;
+	border-radius: 15px;
+	background: radial-gradient(#ff0d40, #801818);
+	outline: 0;
 }
-.app-info{
-    width: 50%;
-    padding: 5px;
-    margin-left: 5%;
-    font-size: 14px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    height: 100%;
-    
+.app-info {
+	width: 50%;
+	padding: 5px;
+	margin-left: 5%;
+	font-size: 14px;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	height: 100%;
 }
 .app-link {
 	background: white;
 	color: #ff0d40;
 	padding: 5px;
-    text-decoration: none;
-    cursor: pointer;
+	text-decoration: none;
+	cursor: pointer;
 }
 .bottom-contents {
-    width: 70%;
-    max-width: 1000px;
-    margin: 0 auto;
-    color: white;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+	width: 70%;
+	max-width: 1000px;
+	margin: 0 auto;
+	color: white;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-.api-link{
-    color: white;
-    cursor: pointer;
+.api-link {
+	color: white;
+	cursor: pointer;
 }
-.resume{
-    text-decoration: underline #ff0d40;
-    color: white;
+.resume {
+	text-decoration: underline #ff0d40;
+	color: white;
 }
 .resume:active {
-    color: blue;
+	color: blue;
 }
-li, .email{
-    cursor: pointer;
-    color: white;
-    text-decoration:  none;
+li,
+.email {
+	cursor: pointer;
+	color: white;
+	text-decoration: none;
 }
 table {
-  border-collapse: collapse;
-  margin: 0 auto;
-  white-space: nowrap;
+	border-collapse: collapse;
+	margin: 0 auto;
+	white-space: nowrap;
 }
-th{
-    font-size: 27px;
-     text-align: left;
-     padding: 20px;
+th {
+	font-size: 27px;
+	text-align: left;
+	padding: 20px;
 }
-.skills-header{
-    text-align: left;
-    margin-top: 60px;
+.skills-header {
+	text-align: left;
+	margin-top: 60px;
 }
-.contact-me{
-    margin-left: 20px;
+.contact-me {
+	margin-left: 20px;
 }
-.plus{
-    font-size: 16.5px;
+.plus {
+	font-size: 16.5px;
 }
 .fa {
-  padding: 2px;
-  font-size: 30px;
-  width: 20px;
-  text-align: center;
-  text-decoration: none;
-  margin-right: 5px;
+	padding: 2px;
+	font-size: 30px;
+	width: 20px;
+	text-align: center;
+	text-decoration: none;
+	margin-right: 5px;
 }
 .fa-linkedin {
-  background: #007bb5;
-  color: white;
+	background: #007bb5;
+	color: white;
 }
-.text{
-    padding: 5px;
-    margin: 0 5px;
+.text {
+	padding: 5px;
+	margin: 0 5px;
 }
-@media(min-width: 1100px){
-    .intro {
-	margin-top: 10%;
-}
-.me{
-    height: 400px;
-    width: 310px;
-    margin-left: 50px;
-}
+@media (min-width: 1100px) {
+	.intro {
+		margin-top: 10%;
+	}
+	.me {
+		height: 400px;
+		width: 310px;
+		margin-left: 50px;
+	}
 }
 @media (max-width: 800px) {
 	.intro {
-        margin-top: 45%;
-        font-size: 26px;
-        padding-left: 12%;
-    }
-    .sub{
-        font-size: 18px;
-        padding-left: 12%;
-    }
+		margin-top: 45%;
+		font-size: 26px;
+		padding-left: 12%;
+	}
+	.sub {
+		font-size: 18px;
+		padding-left: 12%;
+	}
 	.about {
 		flex-direction: column;
 	}
 	.about-me {
 		margin: 0 7px 20px 7px;
-        width: 100%;
-        font-size: 18px;
-        text-align: center;
-    }
-    
+		width: 100%;
+		font-size: 18px;
+		text-align: center;
+	}
+
 	.me {
 		height: 100%;
 		padding: 0 10px;
@@ -211,17 +220,17 @@ th{
 	}
 
 	.app {
-        margin: 50px 0;
-        flex-direction: column;
-        max-height: 100%;
+		margin: 50px 0;
+		flex-direction: column;
+		max-height: 100%;
 	}
 	.app-image {
 		width: 100%;
-    }
-    .app-info{
-        width: 100%;
-        margin-left: 0;
-    }
+	}
+	.app-info {
+		width: 100%;
+		margin-left: 0;
+	}
 	.app-link {
 		background: white;
 		color: #ff0d40;
@@ -231,15 +240,14 @@ th{
 	.bottom-contents {
 		width: 85%;
 		margin: 0 auto;
-    }
-    
+	}
 }
-@media(max-width: 600px){
-    th{
-        font-size: 12px;
-    }
-    td{
-        font-size: 12px;
-        padding: 5px;
-    }
+@media (max-width: 600px) {
+	th {
+		font-size: 12px;
+	}
+	td {
+		font-size: 12px;
+		padding: 5px;
+	}
 }
